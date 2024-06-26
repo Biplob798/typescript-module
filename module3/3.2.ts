@@ -22,8 +22,8 @@
 
   const student1 = new Student("Mr.student1", 23, "Uganda");
   class Teacher extends Person {
-    designation: string;
-    constructor(
+      designation: string;
+      constructor(
       name: string,
       age: number,
       address: string,
